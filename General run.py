@@ -1,3 +1,18 @@
+# Dataclass creates common setup code for a class that mainly holds values.
+# We use it to keep the application title, size, and background settings together.
+from dataclasses import dataclass
+
+# Tkinter creates desktop windows, buttons, labels, and other screen controls.
+# We use it here to open the white window and respond to user actions.
+import tkinter as tk
+
+# Messagebox displays small windows containing information, warnings, or errors.
+# We use it in the example action so a future button can show a message.
+from tkinter import messagebox
+
+# JSON converts Python values into a common text format and reads that format back.
+# We use it in the settings example to produce text that could later be saved.
+import json
 
 
 @dataclass(frozen=True)
@@ -37,21 +52,9 @@ class AppConfig:
 # ACTIVE IMPORTS — THESE ARE USED BY THIS STARTER
 # ---------------------------------------------------------------------------
 
-# Tkinter creates desktop windows, buttons, labels, and other screen controls.
-# We use it here to open the white window and respond to user actions.
-import tkinter as tk
 
-# Messagebox displays small windows containing information, warnings, or errors.
-# We use it in the example action so a future button can show a message.
-from tkinter import messagebox
 
-# Dataclass creates common setup code for a class that mainly holds values.
-# We use it to keep the application title, size, and background settings together.
-from dataclasses import dataclass
 
-# JSON converts Python values into a common text format and reads that format back.
-# We use it in the settings example to produce text that could later be saved.
-import json
 
 
 # ---------------------------------------------------------------------------
