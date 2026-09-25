@@ -1,0 +1,40 @@
+# Quetza - example Python requirements
+#
+# Save this file beside run.py and run.ps1.
+# Install manually with: python -m pip install -r requirements.txt
+# The PowerShell launcher also installs this file automatically.
+#
+# These packages support the optional examples in run.py.
+# The blank Tkinter window itself does not require these extra packages.
+# Remove any package you do not plan to use.
+#
+# This example leaves versions unpinned.
+# For a release, use specific versions you have tested.
+
+# Build websites with pages, accounts, and database features.
+Django
+
+# Read, clean, filter, and summarize tables of data.
+pandas
+
+# Work with arrays of numbers and numerical calculations.
+numpy
+
+# Send requests to websites and web APIs.
+requests
+
+# Open, resize, edit, and save images; imported as PIL.
+Pillow
+
+# Read and write Excel XLSX workbooks.
+openpyxl
+
+# Create charts and graphs.
+matplotlib
+
+# Package a Python app for distribution; used when building.
+pyinstaller
+
+# Do not add Python standard library modules here.
+# Examples: json, csv, pathlib, sqlite3, os, sys, and threading.
+# Tkinter is supplied through your Python installation's Tcl/Tk support.
